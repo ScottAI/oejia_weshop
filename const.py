@@ -171,7 +171,7 @@ class ConstType(type):
                 attrs_value[k] = v
                 attrs_label[k] = v
 
-        sort_new_attrs = sorted(new_attrs.iteritems(), key=lambda (k, v): k)
+        sort_new_attrs = sorted(new_attrs.iteritems(), key=lambda x:x[1])#edited by liujlk
         new_attrs = SortedDict(sort_new_attrs)
 
         obj = type.__new__(cls, name, bases, attrs_value)

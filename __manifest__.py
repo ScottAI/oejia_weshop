@@ -9,7 +9,7 @@
     'application': True,
     'depends': ['base', 'mail', 'sale'],
     'data': [
-        'security/ir.model.access.csv',
+        #'security/ir.model.access.csv',
 
         'views/parent_menus.xml',
 

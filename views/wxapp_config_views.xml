@@ -2,7 +2,7 @@
 <openerp>
     <data>
 
-        <record id="wxapp_config_view_tree_1002" model="ir.ui.view">
+        <record id="wxxcx_config_view_tree_1002" model="ir.ui.view">
             <field name="name">wxapp.config.view_tree</field>
             <field name="model">wxapp.config</field>
             <field name="type">tree</field>
